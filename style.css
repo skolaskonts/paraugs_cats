@@ -1,3 +1,19 @@
 body{
     background-color: brown;
+    background-image: url(https://assets.vogue.com/photos/5891a44a85b39596184755fb/master/w_1600%2Cc_limit/01-marley-natural-skincare.jpg);
+}
+.pamatlaukums{
+    background-color: blanchedalmond;
+    height: 500px;
+    width: 500px;
+    border: 2px solid salmon;
+    padding: 10px;
+    margin: auto;
+}
+.CataZina{
+    background-color: wheat;
+    height: 430px;
+    padding: 10px;
+    overflow: scroll;
+    color: rgb(16, 16, 16);
 }
