@@ -7,7 +7,7 @@ function sutitZinu()
     console.log('sutitZinu()darbojas');
     zinas.innerHTML = zinas.innerHTML+'<br>'+zina.value;
 }
-function ieladetCataZinas()
+async function ieladetCataZinas()
 {
     let datiNoServera = await fetch('cataZinas.txt');
     let dati = await datiNoServera.text;
