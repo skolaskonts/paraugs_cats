@@ -10,5 +10,5 @@ function sutitZinu()
 function ieladetCataZinas()
 {
     let datiNoServera = await fetch('cataZinas.txt');
-    let dati = await datiNoServera.text
+    let dati = await datiNoServera.text;
 }
